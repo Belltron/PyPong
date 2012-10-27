@@ -100,7 +100,7 @@ class Ball:
         self.collide(paddle2)
 
     def draw(self,screen):
-        pygame.draw.circle(screen,black,[(int)(self.position[0]),(int)(self.position[1])],self.radius,0)
+        pygame.draw.circle(screen,red,[(int)(self.position[0]),(int)(self.position[1])],self.radius,0)
 #        pygame.draw.line(screen, red, [0,self.top()], [800,self.top()], 1)
 #        pygame.draw.line(screen, red, [0,self.bottom()], [800,self.bottom()], 1)
 #        pygame.draw.line(screen, red, [self.left(),0], [self.left(),800], 1)
@@ -173,7 +173,7 @@ class PyPong:
         
         size=[width,height]
         screen=pygame.display.set_mode(size)
-        pygame.display.set_caption("PyPong")
+        pygame.display.set_caption("Brian's version")
         
         #Loop until the user clicks the close button.
         done=False
@@ -211,7 +211,7 @@ class PyPong:
             # Render the text. "True" means anti-aliased text. 
             # Black is the color. This creates an image of the 
             # letters, but does not put it on the screen
-            text = font.render("PyPong",True,black)
+            text = font.render("PyPong by Brian Bell",True,black)
             score1text=font.render(player1.score(),True,red)
             score2text=font.render(player2.score(), True, blue)
         
@@ -231,5 +231,6 @@ class PyPong:
 if __name__ == '__main__':
     game=PyPong()
     game.play()
+
 
 
