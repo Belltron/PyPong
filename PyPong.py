@@ -6,7 +6,7 @@ Created on Aug 30, 2012
 # Sample Python/Pygame Programs
 # Simpson College Computer Science
 # http://cs.simpson.edu
- 
+#trying a change
 # Import a library of functions called 'pygame'
 
 import math
