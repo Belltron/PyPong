@@ -7,6 +7,7 @@ Created on Aug 30, 2012
 # Simpson College Computer Science
 # http://cs.simpson.edu
 # trying a change
+# a change without affecting master
 # Import a library of functions called 'pygame'
 
 import math
